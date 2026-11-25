@@ -193,6 +193,7 @@
         <div class="guide-theme-control" role="group" aria-label="外观"><button data-action="theme" data-value="light" aria-pressed="${theme === 'light'}">${icon('sun')}浅色</button><button data-action="theme" data-value="dark" aria-pressed="${theme === 'dark'}">${icon('moon')}深色</button></div>
         <button data-action="view" data-value="map">${icon('map')}校园地图</button>
         <button data-action="view" data-value="metro">${icon('bus-front')}车辆到站</button>
+        <a href="shuttle-bus/">${icon('calendar-clock')}校巴时间表${icon('chevron-right')}</a>
         <a href="demos/shuttle-atlas/">${icon('route')}线路总览${icon('chevron-right')}</a><hr>
         <button data-action="menu-layers">${icon('map-pin')}地图显示${icon('chevron-right')}</button>
         <button data-action="facility-search">${icon('building-2')}校园设施${icon('chevron-right')}</button>
